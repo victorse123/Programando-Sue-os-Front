@@ -1,7 +1,7 @@
 // Importación de recursos y estilos
 //import React from "react";
 
-import styles from '../footer/Footer.module.css'; // Estilos del Footer
+import './Footer.module.css'; // Estilos del Footer
 
 // Componente Funcional Footer
 function Footer() {
