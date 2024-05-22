@@ -7,7 +7,7 @@ import Styles from '../views/landingpage.module.css';
 
         return(
              
-            <div>
+        <div>
            
            <Footer />   
        <div className={Styles.pagDiv}> 
