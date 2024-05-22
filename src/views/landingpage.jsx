@@ -1,4 +1,4 @@
-import footer from '../components/footer/footer';
+import Footer from '../components/footer/Footer';
 import { useNavigate } from 'react-router-dom';
 import styles from '../views/landingpage.module.css';
 
@@ -8,7 +8,7 @@ import styles from '../views/landingpage.module.css';
         return(
              
             <div>
-            <Footer />   
+           
 
        <div className={Styles.pagDiv}> 
        
@@ -24,7 +24,7 @@ import styles from '../views/landingpage.module.css';
               
        </div>
 
-       
+       <Footer />   
 
        </div>
    
