@@ -3,6 +3,7 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPage from './views/landingpage';
+import Home from './views/home';
 import './App.css'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <div>
       <Routes>
         <Route exact path='/' element ={<LandingPage/>}/>
-        
+        <Route exact path='/' element ={<Home/>}/>
       </Routes>
       </div>
     </BrowserRouter>
